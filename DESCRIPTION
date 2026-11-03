@@ -1,0 +1,20 @@
+Package: neonatalCEEG
+Title: Analyses for a Neonatal Multichannel cEEG Outcome Study
+Version: 1.0.0
+Authors@R: person("Willem M.", "Otte", email = "w.m.otte@umcutrecht.nl", role = c("aut", "cre"))
+Description: Analysis of the neonatal cEEG outcome-prediction study.
+    Not an installable package; this file records the dependencies.
+License: file LICENSE
+Depends: R (>= 4.4)
+Imports:
+    tidyverse (>= 2.0.0),
+    haven,
+    lightgbm (>= 4.6.0),
+    glmnet,
+    logistf,
+    future,
+    furrr,
+    scales,
+    ragg,
+    writexl
+Encoding: UTF-8
